@@ -107,9 +107,9 @@ npm run ios
 
 **📌 Screenshots**  
 <p align="center" >
-  <img src="https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/refs/heads/main/assets/UserInput.png" width="200" height= "200" />
-  <img src="https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/refs/heads/main/assets/Results.png" width="200" height= "200" />
-  <img src="https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/refs/heads/main/assets/CashFlow.png" width="200" height= "200" />
+  <img src="https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/refs/heads/main/assets/UserInput.png" width="300" height= "600" />
+  <img src="https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/refs/heads/main/assets/Results.png" width="300" height= "600" />
+  <img src="https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/refs/heads/main/assets/CashFlow.png" width="300" height= "600" />
 </p>
 
 1. Enter bond details in **User Inputs Page**.  
