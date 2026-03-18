@@ -1,6 +1,6 @@
 ```bash 
 
-git add . && git commit -m "March 18: ResultsPage, UserInputsPage, CashFlowSchedulePage added" && git push
+git add . && git commit -m "March 18: backbutton added" && git push
 
 
 
@@ -74,6 +74,17 @@ A **React Native** mobile app that calculates bond yields and displays a detaile
 - `utils` – Helper functions  
 
 ---
+
+## 📌 Screenshots
+
+### User Inputs Page
+![User Inputs Page](assets/UserInput.png)
+
+### Results Page
+![Results Page](assets/Results.png)
+
+### Cash Flow Schedule Page
+![Cash Flow Schedule](assets/CashFlow.png)
 
 ## 🚀 Getting Started
 

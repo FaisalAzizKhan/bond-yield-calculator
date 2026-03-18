@@ -1,11 +1,14 @@
 import React, { useMemo } from "react";
-import { View, Text, FlatList } from "react-native";
-import { useRoute } from "@react-navigation/native";
+import { View, Text, FlatList, Button } from "react-native";
+import { useNavigation, useRoute } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { CashFlowSchedulePageStyles } from "./CashFlowSchedulePage.Styles";
+import { UserInputsPageStyle } from "../User/UserInputsPage.Styles";
+
 
  
 export const CashFlowSchedulePage = () => {
+    const navigation: any = useNavigation();
   const route = useRoute();
   const { userData } = route.params as { userData: IUserData };
 
@@ -137,6 +140,12 @@ export const CashFlowSchedulePage = () => {
           showsVerticalScrollIndicator={false}
         />
       </View>
+
+         <View style={UserInputsPageStyle.buttonContainer}>
+              <Button title="Back"  onPress={() => navigation.goBack()} />
+                <View style={{ height: 20}} />
+              <Button title="Next" onPress={() => navigation.navigate("UserInputsPage", { userData: userData })} />
+                </View>
     </SafeAreaView>
   );
 };

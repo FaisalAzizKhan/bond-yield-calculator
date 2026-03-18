@@ -3,9 +3,10 @@ import { View, Text, StyleSheet, Button } from "react-native";
 import { useEffect, useState } from "react";
 import { ResultsPageStyles } from "./ResultsPage.Styles";
 import { calculateCurrentYield, calculateTotalInterest, calculateYTM } from "./ResultsPage.Helper";
+import { UserInputsPageStyle } from "../User/UserInputsPage.Styles";
 
 
-export const ResultsPage = ({ route, navigation }: IResultsPageProps) => {
+export const ResultsPage = ({ route, navigation }: any) => {
   
   const [currentYield, setCurrentYield] = useState(0);
   const [ytm, setYTM] = useState(0);
@@ -56,9 +57,12 @@ export const ResultsPage = ({ route, navigation }: IResultsPageProps) => {
           <Text style={ResultsPageStyles.cardKey}>Status: <Text style={ResultsPageStyles.cardValue}>{status}</Text></Text>
         </View>
 
+            
+        <View style={UserInputsPageStyle.buttonContainer}>
         <Button title="Back"  onPress={() => navigation.goBack()} />
           <View style={{ height: 20}} />
         <Button title="Next" onPress={() => navigation.navigate("CashFlowSchedulePage", { userData: userData })} />
+          </View>
       </SafeAreaView>
     </SafeAreaProvider>
   );

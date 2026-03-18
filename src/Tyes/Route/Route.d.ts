@@ -15,6 +15,7 @@ type TRootStackParamList = {
   CreateProfile: undefined;
   NextCreateProfile: undefined;
   VerifyPassword: undefined;
+  ResultsPage: ResultsPage;
 };
 
 type TAppTabParamList = {
@@ -22,4 +23,7 @@ type TAppTabParamList = {
   Wallet: undefined;
   Orders: undefined;
   Profile: undefined;
+  Results: undefined;
+  ResultsPage: undefined;
+  CashFlow: undefined;
 };

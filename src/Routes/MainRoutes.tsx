@@ -6,6 +6,7 @@ import SplashAnimation from "../Pages/SplashAnimation/SplashAnimation";
 import { ResultsPage } from "../Pages/Results/ResultsPage";
 import { UserInputsPage } from "../Pages/User/UserInputsPage";
 import { CashFlowSchedulePage } from "../Pages/Cash/CashFlowSchedulePage";
+import AppTabs from "../Navigation/Navigation";
 
 
 const Stack = createNativeStackNavigator<TRootStackParamList>();
@@ -25,13 +26,16 @@ export const MainRoutes = () => {
     CashFlowSchedulePage: {
       screen: CashFlowSchedulePage,
     },
+    AppTabs: {
+      screen: AppTabs,
+    },
   };
 
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName={"UserInputsPage" as keyof TRootStackParamList}
-        screenOptions={{ headerShown: true }}
+        initialRouteName={"AppTabs" as keyof TRootStackParamList}
+        screenOptions={{ headerShown: false }}
       >
         {Object.entries(screens).map(([name, { screen, options }]: any) => (
           <Stack.Screen

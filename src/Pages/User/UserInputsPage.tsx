@@ -5,7 +5,7 @@ import {
   CustomPicker,
   CustomTextInput,
 } from "../../Utilities/Inputs/CustomTextInput";
-import { Button } from "react-native";
+import { Button, View } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 const inputFields = [
@@ -75,7 +75,6 @@ export const UserInputsPage = () => {
               key={field.key}
               label={field.label}
               placeholder={field.placeholder}
-         
               value={userData[field.key as keyof IUserData].toString()}
               onChangeText={(text: any) =>
                 handleChange(field.key as keyof IUserData, text)
@@ -84,7 +83,9 @@ export const UserInputsPage = () => {
           )
         )}
 
-        <Button title="Next" onPress={() => handleNext(userData)} />
+        <View style={UserInputsPageStyle.buttonContainer}>
+          <Button title="Next" onPress={() => handleNext(userData)} />
+        </View>
       </SafeAreaView>
     </SafeAreaProvider>
   );
