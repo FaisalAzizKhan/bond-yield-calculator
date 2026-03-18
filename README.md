@@ -118,7 +118,7 @@ npm run ios
 ## 💡 How It Works
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/main/assets/UserInput.png" alt="Source Code"></a>&nbsp;
+  <img src="https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/refs/heads/main/assets/CashFlow.png" alt="Source Code"></a>&nbsp;
   
 </p>
 
