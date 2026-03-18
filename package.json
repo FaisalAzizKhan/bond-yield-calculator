@@ -1,0 +1,38 @@
+{
+  "name": "bond-yield-calculator",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^3.0.1",
+    "@react-native-picker/picker": "^2.11.4",
+    "@react-navigation/bottom-tabs": "^7.3.13",
+    "@react-navigation/native": "^7.1.6",
+    "@react-navigation/native-stack": "^7.3.18",
+    "@reduxjs/toolkit": "^2.8.2",
+    "@tanstack/react-query": "^5.76.1",
+    "axios": "^1.9.0",
+    "dayjs": "^1.11.13",
+    "expo": "^54.0.32",
+    "formik": "^2.4.6",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-safe-area-context": "^5.7.0",
+    "react-native-screens": "4.16.0",
+    "react-native-toast-message": "^2.3.3",
+    "react-redux": "^9.2.0",
+    "redux-persist": "^6.0.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/react": "~19.1.10",
+    "cross-env": "^7.0.3"
+  }
+}
