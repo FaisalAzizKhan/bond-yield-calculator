@@ -80,6 +80,7 @@ A **React Native** mobile app that calculates bond yields and displays a detaile
 ### User Inputs Page
 ![User Inputs Page](https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/main/assets/UserInput.png)
 
+
 ### Results Page
 ![Results Page](https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/main/assets/Results.png)
 
@@ -115,6 +116,11 @@ npm run ios
 ---
 
 ## 💡 How It Works
+
+<p align="center">
+  <a href="https://github.com/FaisalAzizKhan/bond-yield-calculator"><img src="https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"></a>&nbsp;
+  <a href="https://www.npmjs.com/package/expo"><img src="https://img.shields.io/badge/Run_Expo-000000?style=for-the-badge&logo=expo&logoColor=white" alt="Run Expo"></a>
+</p>
 
 1. Enter bond details in **User Inputs Page**.  
 2. Press **Next** → Navigate to **Results Page**.  
