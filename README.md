@@ -78,13 +78,13 @@ A **React Native** mobile app that calculates bond yields and displays a detaile
 ## 📌 Screenshots
 
 ### User Inputs Page
-![User Inputs Page](assets/UserInput.png)
+![User Inputs Page](https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/main/assets/UserInput.png)
 
 ### Results Page
-![Results Page](assets/Results.png)
+![Results Page](https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/main/assets/Results.png)
 
 ### Cash Flow Schedule Page
-https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/refs/heads/1-faisal/assets/CashFlow.png
+![Cash Flow Schedule Page](https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/main/assets/CashFlow.png)
 
 ## 🚀 Getting Started
 
