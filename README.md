@@ -75,18 +75,6 @@ A **React Native** mobile app that calculates bond yields and displays a detaile
 
 ---
 
-## 📌 Screenshots
-
-### User Inputs Page
-![User Inputs Page](https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/main/assets/UserInput.png)
-
-
-### Results Page
-![Results Page](https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/main/assets/Results.png)
-
-### Cash Flow Schedule Page
-![Cash Flow Schedule Page](https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/main/assets/CashFlow.png)
-
 ## 🚀 Getting Started
 
 1. **Clone the repo**
@@ -117,9 +105,11 @@ npm run ios
 
 ## 💡 How It Works
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/main/assets/UserInput.png" alt="Source Code"></a>&nbsp;
-  
+**📌 Screenshots**  
+<p align="center" >
+  <img src="https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/refs/heads/main/assets/UserInput.png" width="300" height= "600" />
+  <img src="https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/refs/heads/main/assets/Results.png" width="300" height= "600" />
+  <img src="https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/refs/heads/main/assets/CashFlow.png" width="300" height= "600" />
 </p>
 
 1. Enter bond details in **User Inputs Page**.  
