@@ -84,7 +84,7 @@ A **React Native** mobile app that calculates bond yields and displays a detaile
 ![Results Page](assets/Results.png)
 
 ### Cash Flow Schedule Page
-![Cash Flow Schedule](assets/CashFlow.png)
+https://raw.githubusercontent.com/FaisalAzizKhan/bond-yield-calculator/refs/heads/1-faisal/assets/CashFlow.png
 
 ## 🚀 Getting Started
 
